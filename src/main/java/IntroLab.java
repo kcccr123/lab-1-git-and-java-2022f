@@ -6,7 +6,6 @@
  */
 
 public class IntroLab {
-
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
@@ -40,6 +39,12 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * A method that calls on printLabMessage.
+     */
+    public static String chenke78() {
+        return printLabMessage("Hello", "Kevin", true, "hi");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,7 +57,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(chenke78());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
